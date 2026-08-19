@@ -51,39 +51,17 @@
 
     .hero {
       width: 100%;
-      padding: 55px 20px 50px;
+      padding: 65px 20px 50px;
     }
-
-
-    /* =========================
-       MAIN LOGO
-    ========================= */
 
     .logo {
       display: block;
-
       width: auto;
-
-      /* Larger logo */
-      max-width: 580px;
-      max-height: 380px;
-
+      max-width: 500px;
+      max-height: 330px;
       margin: 0 auto 35px;
-
       object-fit: contain;
-
-      /*
-        The original JPG contains a white background.
-        Multiply blends the white area into the dark
-        website background.
-
-        Brightness compensates for the darkening effect
-        so the logo itself remains bright.
-      */
-      mix-blend-mode: multiply;
-      filter: brightness(1.45);
     }
-
 
     h1 {
       font-size: clamp(2.5rem, 5vw, 4.5rem);
@@ -304,19 +282,13 @@
       }
 
       .hero {
-        padding: 45px 10px 40px;
+        padding: 55px 10px 40px;
       }
 
       .logo {
-        max-width: 400px;
-        max-height: 270px;
+        max-width: 330px;
+        max-height: 220px;
         margin-bottom: 28px;
-
-        /*
-          Slightly less brightness on mobile
-          because the logo is displayed larger.
-        */
-        filter: brightness(1.4);
       }
 
       h1 {
